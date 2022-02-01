@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import Each from './components/Each';
+import {BrowserRouter, Route}from 'react-router-dom';
+import { Routes } from 'react-router';
+import { useState } from 'react';
+import logo from './logo/logo.jpg';
+import logo1 from './logo/logo1.jpg'
 
+var a='wkfn'
 function App() {
+
+  const[index,setIndex]=useState();
+
+  const handleIndex=(data)=>
+  {
+    setIndex(data)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="nav">
+        {/* <img src={logo1}></img> */}
+        <i class="fas fa-dumbbell fa-4x"></i>
+        <span>Youfit</span>
+      </div>     
+       <BrowserRouter>
+          <Routes>
+            <Route path="/" exact  element={<Home data={handleIndex}></Home>}></Route>
+            <Route path="/each/:id" exact element={<Each data={index}></Each>}></Route>
+          </Routes>
+        </BrowserRouter>
     </div>
   );
 }

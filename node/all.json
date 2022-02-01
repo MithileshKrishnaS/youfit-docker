@@ -1,0 +1,42 @@
+[
+    {
+        "bodyPart":"back",
+        "image":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mh-exercise-with-weights-royalty-free-image-1567792294.png?resize=980:*"
+    },
+    {
+        "bodyPart":"cardio",
+        "image":"https://www.mensjournal.com/wp-content/uploads/mf/cardio-builds-muscle-main.jpg?w=1188&h=630&crop=1&quality=86&strip=all"
+    },
+    {
+        "bodyPart":"chest",
+        "image":"https://cdn.muscleandstrength.com/sites/default/files/styles/400x250/public/field/image/workout/chest-workout-450.jpg?itok=s3caCppu"
+    },
+    {
+        "bodyPart":"lower arms",
+        "image":"https://cdn.mos.cms.futurecdn.net/ezXhV7ev4eTfxz99qamxfn-610-80.jpg.webp"
+    },
+    {
+        "bodyPart":"lower legs",
+        "image":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-exercising-in-the-gym-royalty-free-image-867362892-1546953397.jpg?resize=980:*"
+    },
+    {
+        "bodyPart":"neck",
+        "image":"https://www.muscleandfitness.com/wp-content/uploads/2016/04/wide-neck.jpg?w=940&h=529&crop=1&quality=86&strip=all"
+    },
+    {
+        "bodyPart":"shoulders",
+        "image":"https://post.healthline.com/wp-content/uploads/2020/02/Shoulders_Male_Stretch_Park-1200x628-Facebook-1200x628.jpg"
+    },
+    {
+        "bodyPart":"waist",
+        "image":"https://cdn.homesthetics.net/wp-content/uploads/2019/08/Best-Waist-Trainers-2.jpg"
+    },
+    {
+        "bodyPart":"upper arms",
+        "image":"https://cdn.shopify.com/s/files/1/0866/7664/articles/best_triceps_workout_1_2048x.jpeg?v=1598022415"
+    },
+    {
+        "bodyPart":"upper legs",
+        "image":"https://www.bodybuilding.com/images/2016/june/5-leg-workouts-for-mass-header-v2.jpg"
+    }
+]

@@ -1,38 +1,178 @@
-.App {
-  text-align: center;
+.home{
+    padding: 0;
+    font-family: 'Sora', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav{
+    height: 10vh;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: 1fr 17fr;
+    width: 98.5vw;
+    position: fixed;
+    z-index: 1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav>img{
+    width: 50px;
+    height: 50px;
+    margin-top: 20%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h1{
+    font-size: 2.3em;
 }
 
-.App-link {
-  color: #61dafb;
+.h1>span{
+    font-weight: bolder;
+    font-size: 200%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i{
+    margin-top: 5%;
+}
+
+span,i{
+    background: #121FCF;
+    background: -webkit-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: -moz-linear-gradient(to right, #121FCF 0%, #CF1512 100%);
+    background: linear-gradient(to right, #7e86f1 0%, #CF1512 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 4em;
+}
+
+.nav>span{
+    width: 10vw;
+}
+
+.header{
+    background-image: url("../public/images/front1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99.2vw;
+    height: 80vh;
+    color: white;
+}
+
+.text{
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 30vw;
+    z-index: 0;
+}
+
+.total{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.each{
+    padding: 8% 8% 4% 8%;
+    margin: 5%;
+    border: 2px solid black;
+    border-radius: 1em;
+    cursor: pointer;
+    color: black;
+    font-size: 2em;
+}
+
+.each>img{
+    width: 450px;
+    height: 300px;
+   
+}
+
+.each:hover{
+    background-color: rgb(243, 173, 42);
+}
+
+.seconds{
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(165, 159, 159);
+    font-size: 2em;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.left{
+    padding: 15% 5% 15% 5% ;
+}
+
+.right>img{
+    width: 500px;
+    height: 500px;
+}
+
+.work{
+    margin: 2% 5% 2% 5%;
+    font-size: 4em;
+}
+
+.each-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 2%;
+}
+
+.each-header-btn{
+    margin-top: 5%;
+    margin-left: 80%;
+    color: white;
+    background-color: black;
+    padding: 1%;
+    font-size: 1em;
+    font-family: 'Sora', sans-serif;
+    border: transparent;
+    cursor: pointer;
+}
+
+.each-header-btn:hover{
+    background-color: rgb(255, 157, 0);
+}
+
+.each-h1{
+    font-size: 4em;
+}
+
+.each-h2{
+    font-size: 3em;
+    margin-left: 5%;
+}
+
+.exercise{
+    margin: 5% 10% 5% 10%;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 1em;
+    background-color: rgb(255, 187, 0);
+}
+
+.exercise-name{
+    font-size: 3em;
+}
+
+.exercise>img{
+   margin-left: 30%;
+}
+
+hr{
+    border-top: 3px solid black;
+}
+
+.exercise-eq{
+    font-size: 1.5em;
+}
+
+.space{
+    height: 11vh;
 }
