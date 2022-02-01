@@ -26,7 +26,7 @@ function App() {
       </div>     
        <BrowserRouter>
           <Routes>
-            <Route path="/" exact  element={<Home data={handleIndex}></Home>}></Route>
+            <Route path="/youfit" exact  element={<Home data={handleIndex}></Home>}></Route>
             <Route path="/each/:id" exact element={<Each data={index}></Each>}></Route>
           </Routes>
         </BrowserRouter>

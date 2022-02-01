@@ -41,7 +41,7 @@ const Each = (props) => {
             <div className="space"></div>
             <div className="each-header">
                 <h1 className="each-h1">{datas[0]?(datas[0].bodyPart):null}</h1>
-                <Link to={{pathname:'/' }} style={{ textDecoration: 'none' }}>
+                <Link to={{pathname:'/youfit' }} style={{ textDecoration: 'none' }}>
                     <button className="each-header-btn">BACK</button>
                 </Link>
             </div>
