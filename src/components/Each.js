@@ -2,7 +2,8 @@ import { useState } from "react";
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-var url="http://localhost:8081/";
+// var url="http://localhost:8081/";
+var url="https://node-youfit.herokuapp.com/"
 var details=[];
 var list=[];
 
