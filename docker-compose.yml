@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+    reactapp:
+        build: .
+        ports:
+            - "3000:3000"
+
+    nodeapp:
+        build:
+            context: ./node
+            dockerfile: Dockerfile
+        ports:
+            - "8081:8081"

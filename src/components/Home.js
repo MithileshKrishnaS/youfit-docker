@@ -4,8 +4,8 @@ import Image from '../images/right.png';
 import Thread from '../images/treadmill.png';
 import Work from '../images/workout.svg'
 
-// var url="http://localhost:8081/";
-var url="https://node-youfit.herokuapp.com/"
+var url="http://localhost:8081/";
+// var url="https://node-youfit.herokuapp.com/"
 var ind='pp';
 function Home(props){
     const [data,getData]=useState([])
